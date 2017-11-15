@@ -147,6 +147,93 @@
             </objects>
             <point key="canvasLocation" x="-317.60000000000002" y="31.934032983508249"/>
         </scene>
+        <!--Home View Controller-->
+        <scene sceneID="sNa-ff-rs7">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fFu-HU-Zwa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="ZCq-XQ-gyg" customClass="HomeViewController" customModule="Recipes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i3m-OP-34Q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Мой аккаунт" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2RN-b2-CG4">
+                                <rect key="frame" x="43" y="121" width="289" height="92"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Ck8-U0-puV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="svd-BC-rg6">
+                                <rect key="frame" x="45" y="258" width="285" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.32156862749999998" green="0.32156862749999998" blue="0.32156862749999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="ACCOUNT ID" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTq-wT-fQz">
+                                <rect key="frame" x="45" y="240" width="285" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="EMAIL / PHONE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bF4-nk-DY5">
+                                <rect key="frame" x="45" y="287" width="285" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="tVd-bf-dcK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0X-3g-p4Y">
+                                <rect key="frame" x="45" y="307" width="285" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.32156862749999998" green="0.32156862749999998" blue="0.32156862749999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTa-wJ-E4S">
+                                <rect key="frame" x="20" y="607" width="335" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="BBK-FK-Pmq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <state key="normal" title="Logout">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UTq-wT-fQz" firstAttribute="leading" secondItem="svd-BC-rg6" secondAttribute="leading" id="7xI-J4-vBu"/>
+                            <constraint firstItem="HTa-wJ-E4S" firstAttribute="leading" secondItem="Q4P-1i-wA5" secondAttribute="leading" constant="20" id="8XE-Vk-cBg"/>
+                            <constraint firstItem="Q4P-1i-wA5" firstAttribute="trailing" secondItem="bF4-nk-DY5" secondAttribute="trailing" constant="45" id="AYF-aZ-QRy"/>
+                            <constraint firstItem="svd-BC-rg6" firstAttribute="leading" secondItem="Q4P-1i-wA5" secondAttribute="leading" constant="45" id="BJW-cp-8UE"/>
+                            <constraint firstItem="UTq-wT-fQz" firstAttribute="leading" secondItem="Q4P-1i-wA5" secondAttribute="leading" constant="45" id="CJZ-0x-4Xv"/>
+                            <constraint firstItem="Q4P-1i-wA5" firstAttribute="trailing" secondItem="UTq-wT-fQz" secondAttribute="trailing" constant="45" id="GWW-64-kvQ"/>
+                            <constraint firstItem="bF4-nk-DY5" firstAttribute="top" secondItem="svd-BC-rg6" secondAttribute="bottom" constant="8" symbolic="YES" id="IMw-df-LkM"/>
+                            <constraint firstItem="svd-BC-rg6" firstAttribute="trailing" secondItem="bF4-nk-DY5" secondAttribute="trailing" id="JL5-WN-IcF"/>
+                            <constraint firstAttribute="trailing" secondItem="2RN-b2-CG4" secondAttribute="trailing" constant="43" id="VzX-VM-mYT"/>
+                            <constraint firstItem="Q4P-1i-wA5" firstAttribute="trailing" secondItem="F0X-3g-p4Y" secondAttribute="trailing" constant="45" id="XH0-kM-emF"/>
+                            <constraint firstItem="bF4-nk-DY5" firstAttribute="top" secondItem="UTq-wT-fQz" secondAttribute="bottom" constant="26" id="ZaI-3g-95e"/>
+                            <constraint firstItem="UTq-wT-fQz" firstAttribute="trailing" secondItem="svd-BC-rg6" secondAttribute="trailing" id="Zeb-kn-Omn"/>
+                            <constraint firstItem="Q4P-1i-wA5" firstAttribute="trailing" secondItem="svd-BC-rg6" secondAttribute="trailing" constant="45" id="aSQ-Fr-VmC"/>
+                            <constraint firstItem="svd-BC-rg6" firstAttribute="leading" secondItem="bF4-nk-DY5" secondAttribute="leading" id="f3V-Q1-wLL"/>
+                            <constraint firstItem="bF4-nk-DY5" firstAttribute="leading" secondItem="F0X-3g-p4Y" secondAttribute="leading" id="je2-Yf-kAY"/>
+                            <constraint firstItem="bF4-nk-DY5" firstAttribute="trailing" secondItem="F0X-3g-p4Y" secondAttribute="trailing" id="jvP-d5-x1C"/>
+                            <constraint firstItem="bF4-nk-DY5" firstAttribute="leading" secondItem="Q4P-1i-wA5" secondAttribute="leading" constant="45" id="oFN-Ow-g4R"/>
+                            <constraint firstItem="Q4P-1i-wA5" firstAttribute="trailing" secondItem="HTa-wJ-E4S" secondAttribute="trailing" constant="20" id="qio-oU-mqq"/>
+                            <constraint firstItem="F0X-3g-p4Y" firstAttribute="leading" secondItem="Q4P-1i-wA5" secondAttribute="leading" constant="45" id="waV-27-zL0"/>
+                            <constraint firstItem="2RN-b2-CG4" firstAttribute="leading" secondItem="Q4P-1i-wA5" secondAttribute="leading" constant="43" id="yJ6-6e-RFf"/>
+                            <constraint firstItem="F0X-3g-p4Y" firstAttribute="top" secondItem="svd-BC-rg6" secondAttribute="bottom" constant="28" id="ybY-V4-27v"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Q4P-1i-wA5"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-2109" y="347"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="TgE-94-kL5">
             <objects>
@@ -164,6 +251,54 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iil-j5-A0X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1119" y="34"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="5ca-kb-npu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JiT-Ra-7eh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="bdM-h3-Uv7" customClass="LoginViewController" customModule="Recipes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AMH-7b-qsc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkX-bm-ctT">
+                                <rect key="frame" x="70" y="279" width="162" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32549019610000002" green="0.5568627451" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="По электронной почте">
+                                    <color key="titleShadowColor" red="0.94625347852706909" green="0.50592780113220215" blue="0.18963104486465454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ird-bZ-N3r">
+                                <rect key="frame" x="70" y="340" width="151" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32549019610000002" green="0.5568627451" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="По номеру телефона"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Войти" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sT4-KL-ZdB">
+                                <rect key="frame" x="43" y="136" width="127.5" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="43"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gyx-HS-pWP">
+                                <rect key="frame" x="126" y="428" width="122" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Без регистрации">
+                                    <color key="titleColor" red="0.17099881172180176" green="0.2912534773349762" blue="0.98505169153213501" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.90992671251296997" green="0.94090145826339722" blue="0.74397629499435425" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="XUz-b4-fcX"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-2112.8000000000002" y="-404.34782608695656"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ByK-Hv-AA7">
