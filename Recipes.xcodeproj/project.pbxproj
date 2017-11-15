@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		FA2F5ABD1FB276A0008D91C5 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F5ABC1FB276A0008D91C5 /* RatingControl.swift */; };
 		FA30EA201FB4BD5700EB2E96 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30EA1F1FB4BD5700EB2E96 /* Meal.swift */; };
-		FA320A9E1FBBD6D5001969D3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA320A9D1FBBD6D5001969D3 /* LoginViewController.swift */; };
-		FA320AA01FBBD6EA001969D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA320A9F1FBBD6EA001969D3 /* HomeViewController.swift */; };
+		FA47C1BD1FBC9240006D90EC /* AccountKitStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA47C1B91FBC923F006D90EC /* AccountKitStrings.bundle */; };
+		FA47C1BE1FBC9240006D90EC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47C1BA1FBC923F006D90EC /* LoginViewController.swift */; };
+		FA47C1BF1FBC9240006D90EC /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA47C1BB1FBC9240006D90EC /* AccountKit.framework */; };
+		FA47C1C01FBC9240006D90EC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47C1BC1FBC9240006D90EC /* HomeViewController.swift */; };
 		FA6FE9B01FAF3D5A00A46C06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6FE9AF1FAF3D5A00A46C06 /* AppDelegate.swift */; };
 		FA6FE9B21FAF3D5A00A46C06 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6FE9B11FAF3D5A00A46C06 /* MealViewController.swift */; };
 		FA6FE9B51FAF3D5A00A46C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6FE9B31FAF3D5A00A46C06 /* Main.storyboard */; };
@@ -34,8 +36,10 @@
 /* Begin PBXFileReference section */
 		FA2F5ABC1FB276A0008D91C5 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		FA30EA1F1FB4BD5700EB2E96 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
-		FA320A9D1FBBD6D5001969D3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		FA320A9F1FBBD6EA001969D3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FA47C1B91FBC923F006D90EC /* AccountKitStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AccountKitStrings.bundle; sourceTree = "<group>"; };
+		FA47C1BA1FBC923F006D90EC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "../../AccountKitTest 3/AccountKitTest/LoginViewController.swift"; sourceTree = "<group>"; };
+		FA47C1BB1FBC9240006D90EC /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccountKit.framework; sourceTree = "<group>"; };
+		FA47C1BC1FBC9240006D90EC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "../../AccountKitTest 3/AccountKitTest/HomeViewController.swift"; sourceTree = "<group>"; };
 		FA6FE9AC1FAF3D5A00A46C06 /* Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6FE9AF1FAF3D5A00A46C06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA6FE9B11FAF3D5A00A46C06 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA47C1BF1FBC9240006D90EC /* AccountKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,11 +94,13 @@
 		FA6FE9AE1FAF3D5A00A46C06 /* Recipes */ = {
 			isa = PBXGroup;
 			children = (
-				FA320A9D1FBBD6D5001969D3 /* LoginViewController.swift */,
-				FA320A9F1FBBD6EA001969D3 /* HomeViewController.swift */,
 				FA6FE9AF1FAF3D5A00A46C06 /* AppDelegate.swift */,
 				FA6FE9B11FAF3D5A00A46C06 /* MealViewController.swift */,
 				FA6FE9B31FAF3D5A00A46C06 /* Main.storyboard */,
+				FA47C1BB1FBC9240006D90EC /* AccountKit.framework */,
+				FA47C1B91FBC923F006D90EC /* AccountKitStrings.bundle */,
+				FA47C1BA1FBC923F006D90EC /* LoginViewController.swift */,
+				FA47C1BC1FBC9240006D90EC /* HomeViewController.swift */,
 				FABA938A1FB7089D00994546 /* MealTableViewCell.swift */,
 				FABA938C1FB7B55900994546 /* MealTableViewController.swift */,
 				FA30EA1F1FB4BD5700EB2E96 /* Meal.swift */,
@@ -200,6 +207,7 @@
 				FA6FE9BA1FAF3D5A00A46C06 /* LaunchScreen.storyboard in Resources */,
 				FA6FE9B71FAF3D5A00A46C06 /* Assets.xcassets in Resources */,
 				FA6FE9B51FAF3D5A00A46C06 /* Main.storyboard in Resources */,
+				FA47C1BD1FBC9240006D90EC /* AccountKitStrings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,10 +225,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA320A9E1FBBD6D5001969D3 /* LoginViewController.swift in Sources */,
+				FA47C1BE1FBC9240006D90EC /* LoginViewController.swift in Sources */,
 				FA30EA201FB4BD5700EB2E96 /* Meal.swift in Sources */,
 				FABA938D1FB7B55900994546 /* MealTableViewController.swift in Sources */,
-				FA320AA01FBBD6EA001969D3 /* HomeViewController.swift in Sources */,
+				FA47C1C01FBC9240006D90EC /* HomeViewController.swift in Sources */,
 				FA6FE9B21FAF3D5A00A46C06 /* MealViewController.swift in Sources */,
 				FA2F5ABD1FB276A0008D91C5 /* RatingControl.swift in Sources */,
 				FA6FE9B01FAF3D5A00A46C06 /* AppDelegate.swift in Sources */,
@@ -380,6 +388,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49R8K67TLW;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Recipes",
+				);
 				INFOPLIST_FILE = Recipes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -398,6 +411,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49R8K67TLW;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Recipes",
+				);
 				INFOPLIST_FILE = Recipes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
