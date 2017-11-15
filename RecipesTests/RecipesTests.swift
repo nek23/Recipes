@@ -23,7 +23,7 @@ class RecipesTests: XCTestCase {
     }
     // Confirm that the Meal initialier returns nil when passed a negative rating or an empty name.
     func testMealInitializationFails() {
-        // Negative rating
+        // Отрицательный рейтинг
         let negativeRatingMeal = Meal.init(name: "Negative", photo: nil, rating: -1)
         XCTAssertNil(negativeRatingMeal)
         // Rating exceeds maximum
